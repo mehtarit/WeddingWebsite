@@ -18,6 +18,10 @@
     height: 100%;
   }
 
+  #hero > img {
+    width: 100%;
+  }
+
   #detail {
     width: 35%;
     height: 100%;
