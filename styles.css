@@ -54,6 +54,7 @@
 
 @media only screen and (min-width: 992px) {
   .home-container {
+    flex: 0 1 auto;
     display: flex;
   }
   #hero {
