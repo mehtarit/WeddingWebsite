@@ -1,6 +1,7 @@
 .home-container {
   display: flex; !important;
   flex: 1 1 auto; !important;
+  flex-wrap: wrap;
   border: 1px dotted grey; !important;
 }
 
@@ -14,6 +15,7 @@
 
 #hero > img {
   width: 100%;
+  height: 100%;
 }
 
 #hero .bottom-left {
@@ -32,6 +34,7 @@
 
 #detail > img {
   width: 100%;
+  height: 100%;
 }
 
 #detail .centered {
@@ -59,11 +62,11 @@
   }
   #hero {
     width: 65%;
-    height: 100%;
+    height: auto
   }
 
   #detail {
     width: 35%;
-    height: 100%;
+    height: auto;
   }
 }
