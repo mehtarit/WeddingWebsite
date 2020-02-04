@@ -99,12 +99,12 @@
     display: flex; !important;
   }
   #hero {
-    width: 65%;
+    width: 67%;
     height: auto
   }
 
   #detail {
-    width: 35%;
+    width: 33%;
     height: auto;
   }
 }
