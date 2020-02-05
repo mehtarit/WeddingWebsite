@@ -28,13 +28,13 @@
 
 #hero .bottom-left {
   position: absolute;
-  bottom: 16px;
-  left: -1px;
+  bottom: 6px;
+  left: 20px;
 }
 
 #hero .bottom-left .couple {
   font-family: 'Dancing Script', cursive;
-  font-size: 2.8em;
+  font-size: 2.9vh;
   letter-spacing: 3px;
   font-weight:600;
   margin-top: 10px;
@@ -75,7 +75,7 @@
 
 #detail .centered .venue {
     font-family: 'Dancing Script', cursive;
-    font-size: 2.5em;
+    font-size: 3.5vh;
     font-weight: 550;
     margin-bottom: 70px;
     margin-top: 70px;
@@ -83,18 +83,18 @@
 
 #detail .centered .party {
   font-family: Mali;
-  font-size: 1.0em;
+  font-size: 1.5vh;
   margin: 7px;
 }
 
 #detail .centered .occasion {
   font-family: sacramento;
-  font-size: 2.5em;
+  font-size: 3vh;
   margin:5px;
 }
 
 #detail .centered .big {
-  font-size: 2.8em;
+  font-size: 3.5vh;
 }
 
 .footer {
@@ -104,7 +104,6 @@
 .header {
   flex: 0 1 auto;
 }
-
 
 @media only screen and (min-width: 992px) {
   .home-container {
@@ -133,5 +132,20 @@
   #detail {
     width: 33%;
     height: auto;
+  }
+
+  #detail .centered .venue {
+    font-size: 2.5em;
+  }
+  #detail .centered .occasion {
+    font-size: 2.5em;
+  } 
+
+  #detail .centered .party {
+    font-size: 1.0em;
+  }
+
+  #detail .centered .big {
+    font-size: 2.8em;
   }
 }
