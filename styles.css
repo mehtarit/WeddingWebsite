@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'edwardian_script_itcregular';
-    src: url('font/edwardian-script-itc-1361504162-webfont.woff2') format('woff2'),
+    src: url('font/edwardian-script-itc-1361504162-webfont.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,18 +28,19 @@
 
 #hero .bottom-left {
   position: absolute;
-  bottom: 33px;
-  left: 6px;
+  bottom: 16px;
+  left: -1px;
 }
 
 #hero .bottom-left .couple {
   font-family: 'Dancing Script', cursive;
-  font-size: 4.0em;
-  letter-spacing: 5px;
+  font-size: 2.8em;
+  letter-spacing: 3px;
   font-weight:600;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 35px;
+  display: table-caption;
 }
 
 #hero .bottom-left .welcome {
@@ -67,7 +68,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-73%, -46%);
+  transform: translate(-71%, -46%);
   color:white;
   bottom: -100px;
 }
@@ -113,6 +114,20 @@
   #hero {
     width: 67%;
     height: auto
+  }
+
+  #hero .bottom-left{
+    bottom: 29px;
+    left: 14px;
+  }
+  #hero .bottom-left .couple {
+    font-size: 4.0em;
+    letter-spacing: 5px;
+    font-weight:600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    display: block;
   }
 
   #detail {
