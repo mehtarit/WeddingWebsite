@@ -164,6 +164,45 @@
     flex: 0 1 auto; !important;
     display: flex; !important;
   }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darksalmon;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center
+  }
+  
+  .sidenav a {
+    padding: 49px 12px 19px 38px;
+    text-decoration: none;
+    font-size: 9vh;
+    /* font-weight: 400; */
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover{
+    color: maroon;
+    font-weight: 1000;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -67px;
+    right: 48px;
+    font-size: 14vh;
+    margin-left: 50px;
+  }
+
   #hero {
     width: 67%;
     height: auto
