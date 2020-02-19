@@ -29,29 +29,17 @@
 .menu-icon {
   display: block;
   cursor: pointer;
-  top: 14px;
+  top: 19px;
   position: absolute;
-  left: 18px;
+  left: 22px;
 }
 
 .bar1, .bar2, .bar3 {
-  width: 44px;
-  height: 6px;
+  width: 101px;
+  height: 14px;
   background-color: black;
-  margin: 8px 0;
+  margin: 16px 0;
   transition: 0.4s;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-11px, 10px);
-  transform: rotate(-45deg) translate(-11px, 10px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8.5px, -8px);
-  transform: rotate(45deg) translate(-8.5px, -8px);
 }
 
 #hero .bottom-left {
@@ -141,6 +129,22 @@
   #hero {
     width: 67%;
     height: auto
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    top: 14px;
+    position: absolute;
+    left: 18px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 44px;
+    height: 6px;
+    background-color: black;
+    margin: 8px 0;
+    transition: 0.4s;
   }
 
   #hero .bottom-left{
