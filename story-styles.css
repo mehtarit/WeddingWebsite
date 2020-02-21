@@ -299,14 +299,14 @@
     width:800px;
     margin:0 auto;
   }
-  .carousel-item{
+  .carousel-item {
     position:absolute;
-    top: 83px;
-    bottom: -243px;
+    top: 77px;
+    bottom: -222px;
     left: -26px;
     right: -31px;
     padding:25px 50px;
-    opacity:1;
+    opacity:0;
     transition: all 0.5s ease-in-out;
   }
   .arrow{
@@ -337,7 +337,7 @@
   .caption {
     position: absolute;
     left: 0;
-    bottom: -95px;
+    bottom: -98px;
     font-family: Sacramento;
     font-size: 2.5em;
     font-weight: 400;
