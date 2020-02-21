@@ -1,0 +1,33 @@
+.title > img {
+    width: 100%;
+    height: 32vh;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .title > img {
+        width: 100%;
+        height: 40vh;
+    } 
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1249px) {
+    .title > img {
+        width: 100%;
+        height: 51vh;
+    } 
+}
+
+@media only screen and (min-width: 1250px){
+    .title > img {
+        width: 100%;
+        height: 60vh;
+    }
+    .title-text {
+        top: 39vh;
+        position: absolute;
+        left: 24vw;
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 14vh;
+    }
+}
