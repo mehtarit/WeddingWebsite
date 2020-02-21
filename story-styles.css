@@ -306,7 +306,7 @@
     left: -26px;
     right: -31px;
     padding:25px 50px;
-    opacity:0;
+    opacity:1;
     transition: all 0.5s ease-in-out;
   }
   .arrow{
