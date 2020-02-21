@@ -80,9 +80,6 @@
     opacity:0;
     transition: all 0.5s ease-in-out;
   }
-  .carousel-item > h2 {
-    display: none;
-}
   .arrow{
     border: solid white;
       border-width: 0 3px 3px 0;
@@ -216,10 +213,10 @@
 
 #detail .centered .venue {
     font-family: 'Dancing Script', cursive;
-    font-size: 8.7vh;
+    font-size: 4.7vh;
     font-weight: 550;
     margin-bottom: 70px;
-    margin-top: 198px;
+    margin-top: 70px;
 }
 
 #detail .centered .party {
@@ -294,47 +291,6 @@
     width: 67%;
     height: auto;
     background-color:black;
-  }
-
-  .carousel-wrapper{
-    height:400px;
-    position:relative;
-    width:800px;
-    margin:0 auto;
-  }
-  .carousel-item{
-    position:absolute;
-    top: 94px;
-    bottom: -218px;
-    left:0;
-    right:0;
-    padding:25px 50px;
-    opacity:1;
-    transition: all 0.5s ease-in-out;
-  }
-  .arrow{
-    border: solid white;
-      border-width: 0 3px 3px 0;
-      display: inline-block;
-      padding: 12px;
-  }
-  
-  .arrow-prev{
-    left:-30px;
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%) rotate(135deg);
-  }
-   
-  .arrow-next{
-      right:-30px;
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%) rotate(-45deg);
-    }
-  
-  .light{
-    color:white;
   }
 
   .menu-icon {
