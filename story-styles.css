@@ -334,6 +334,15 @@
     color:white;
   }
 
+  .caption {
+    position: absolute;
+    left: 0;
+    bottom: -95px;
+    font-family: Sacramento;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+
   .menu-icon {
     display: block;
     cursor: pointer;
