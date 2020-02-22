@@ -70,6 +70,7 @@
     position:relative;
     width:800px;
     margin:0 auto;
+    margin-top: 7vh;
   }
   .carousel-item{
     position:absolute;
@@ -150,11 +151,10 @@
     
 
 .menu-icon {
-  display: block;
-  cursor: pointer;
-  top: 19px;
   position: absolute;
-  left: 22px;
+  z-index: 99;
+  top: 25px;
+  left: 25px;
 }
 
 .bar1, .bar2, .bar3 {
@@ -214,10 +214,10 @@
 
 #detail .centered .venue {
     font-family: 'Dancing Script', cursive;
-    font-size: 4.7vh;
+    font-size: 8.7vh;
     font-weight: 550;
     margin-bottom: 70px;
-    margin-top: 70px;
+    margin-top: 12vh;
 }
 
 #detail .centered .party {
