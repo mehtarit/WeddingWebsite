@@ -155,10 +155,10 @@
 }
 
 .bar1, .bar2, .bar3 {
-  width: 101px;
-  height: 14px;
+  width: 7vh;
+  height: 0.7vh;
   background-color: white;
-  margin: 16px 0;
+  margin: 1vh;
   transition: 0.4s;
 }
 
@@ -204,7 +204,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-46%, -46%);
+  transform: translate(-47%, -46%);
   color:white;
   bottom: -100px;
 }
