@@ -292,17 +292,17 @@
   }
 
   .carousel-wrapper{
-    height:400px;
-    position:relative;
-    width:800px;
+    height: 100vh;
+    position: relative;
+    width: 100vw;
     margin:0 auto;
   }
   .carousel-item {
     position:absolute;
-    top: 77px;
-    bottom: -222px;
-    left: -26px;
-    right: -31px;
+    top: 10vh;
+    bottom: 10vh;
+    left: 10vh;
+    right: 10vh;
     padding:25px 50px;
     opacity:1;
     transition: all 0.5s ease-in-out;
