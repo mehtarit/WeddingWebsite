@@ -241,7 +241,7 @@
   flex: 0 1 auto;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
   .home-container {
     flex: 0 1 auto; !important;
     display: flex; !important;
@@ -302,7 +302,159 @@
     top: 10vh;
     bottom: 10vh;
     left: 10vh;
-    right: 10vh;
+    right: 20vh;
+    padding:25px 50px;
+    opacity:1;
+    transition: all 0.5s ease-in-out;
+  }
+  .arrow{
+    border: solid white;
+      border-width: 0 3px 3px 0;
+      display: inline-block;
+      padding: 12px;
+  }
+  
+  .arrow-prev{
+    left:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(135deg);
+  }
+   
+  .arrow-next{
+      right:-30px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%) rotate(-45deg);
+    }
+  
+  .light{
+    color:white;
+  }
+
+  .caption {
+    position: absolute;
+    left: 0;
+    bottom: -98px;
+    font-family: Sacramento;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    top: 14px;
+    position: absolute;
+    left: 18px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 44px;
+    height: 6px;
+    background-color: white;
+    margin: 8px 0;
+    transition: 0.4s;
+  }
+
+  #hero .bottom-left{
+    bottom: 29px;
+    left: 14px;
+  }
+  #hero .bottom-left .couple {
+    font-size: 4.0em;
+    letter-spacing: 5px;
+    font-weight:600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    display: block;
+  }
+
+  #detail {
+    width: 33%;
+    height: auto;
+  }
+
+  #detail .centered .venue {
+    font-size: 4.5em;
+    margin-top: 131px;
+  }
+  #detail .centered .occasion {
+    font-size: 2.5em;
+  } 
+
+  #detail .centered .party {
+    font-size: 1.0em;
+  }
+
+  #detail .centered .big {
+    font-size: 2.8em;
+  }
+}
+
+@media only screen and (min-width: 1251px) {
+  .home-container {
+    flex: 0 1 auto; !important;
+    display: flex; !important;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: darksalmon;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center
+  }
+  
+  .sidenav a {
+    padding: 26px 12px 18px 38px;
+    text-decoration: none;
+    font-size: 9vh;
+    /* font-weight: 400; */
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover{
+    color: maroon;
+    font-weight: 1000;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: -67px;
+    right: 48px;
+    font-size: 14vh;
+    margin-left: 50px;
+  }
+
+  #hero {
+    width: 67%;
+    height: auto;
+    background-color:black;
+  }
+
+  .carousel-wrapper{
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+    margin:0 auto;
+  }
+  .carousel-item {
+    position:absolute;
+    top: 10vh;
+    bottom: 10vh;
+    left: 10vh;
+    right: 20vh;
     padding:25px 50px;
     opacity:1;
     transition: all 0.5s ease-in-out;
