@@ -444,14 +444,14 @@
   }
 
   .carousel-wrapper{
-    height: 100vh;
+    height: 110vh;
     position: relative;
     width: 100vw;
     margin:0 auto;
   }
   .carousel-item {
     position:absolute;
-    top: 10vh;
+    top: 8vh;
     bottom: 10vh;
     left: 10vh;
     right: 20vh;
