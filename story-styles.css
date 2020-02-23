@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+body {
+  background-color: black;
+}
+
 .home-container {
   display: flex; !important;
   flex: 1 1 auto; !important;
